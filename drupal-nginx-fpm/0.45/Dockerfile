@@ -1,5 +1,5 @@
 FROM appsvcorg/drupal-nginx-fpm:0.44
-MAINTAINER Azure App Service Container Images <appsvc-images@microsoft.com>
+LABEL maintainer ="Azure App Service Container Images <appsvc-images@microsoft.com>"
 # ========
 # ENV vars
 # ========
