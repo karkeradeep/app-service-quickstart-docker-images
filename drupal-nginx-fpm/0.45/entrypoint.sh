@@ -60,7 +60,7 @@ setup_drupal(){
     done
     test ! -d "$DRUPAL_PRJ" && echo "INFO: $DRUPAL_PRJ not found. creating..." && mkdir -p "$DRUPAL_PRJ"	
 	cd $DRUPAL_PRJ
-	GIT_REPO=${GIT_REPO:-https://github.com/azureappserviceoss/drupalcms-composer-azure}
+	GIT_REPO=${GIT_REPO:-https://github.com/azureappserviceoss/drupalcms-azure}
 	GIT_BRANCH=${GIT_BRANCH:-master}
 	echo "INFO: ++++++++++++++++++++++++++++++++++++++++++++++++++:"
 	echo "REPO: "$GIT_REPO
